@@ -29,8 +29,20 @@ static styles = css`
         left: 500px;
         background-color: white;
         outline-color: lightblue;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 700;
+        letter-spacing: 0.025rem;
+        color: #CCF0FF !important;
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        border: 2px solid #005fa9;
+        background-color: #fff;
+        color: #005fa9 !important;
+        padding: 12px 16px 12px 24px;
       }
-      :host([active]) .outsidebutton .butone:hover {
+      .outsidebutton .butone:hover {
         background-color: gray;
         border: 2px solid black;
         border-radius: 2px;
@@ -351,7 +363,7 @@ static styles = css`
             <p class="info">Penn State's 2024 Benefits Open Enrollment starts, Monday, Nov. 6, and runs through 5 p.m. EST on Friday, Nov. 17. Information on health-care plan designs — which remain the same for 2024 — is available on a dedicated 2024 Benefits Open Enrollment section of the Penn State Human Resources website.</p>
           </div>
           <a class="outsidebutton" href="https://hr.psu.edu/news">
-            <button class="butone" active>View All News</button>
+            <button class="butone" active>View All News > </button>
             </a>
         </div>
       </main>
